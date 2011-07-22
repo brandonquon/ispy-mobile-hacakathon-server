@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  guessimage: MyString
+  iscorrect: 
+  checked: 
+
+two:
+  guessimage: MyString
+  iscorrect: 
+  checked: 

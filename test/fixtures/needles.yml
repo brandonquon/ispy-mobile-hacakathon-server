@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  image: MyString
+  hint1: MyString
+  hint2: MyString
+  hint3: MyString
+
+two:
+  image: MyString
+  hint1: MyString
+  hint2: MyString
+  hint3: MyString
