@@ -2,10 +2,10 @@
 
 one:
   guessimage: MyString
-  iscorrect: 
-  checked: 
+  iscorrect: false
+  checked: false
 
 two:
   guessimage: MyString
-  iscorrect: 
-  checked: 
+  iscorrect: false
+  checked: false

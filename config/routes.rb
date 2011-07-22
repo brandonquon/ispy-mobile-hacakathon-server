@@ -1,4 +1,8 @@
 Eyespy::Application.routes.draw do
+  resources :guesses
+
+  resources :needles
+
   resources :players
   # The priority is based upon order of creation:
   # first created -> highest priority.

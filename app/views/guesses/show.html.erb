@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Guessimage:</b>
+  <%= @guess.guessimage %>
+</p>
+
+<p>
+  <b>Iscorrect:</b>
+  <%= @guess.iscorrect %>
+</p>
+
+<p>
+  <b>Checked:</b>
+  <%= @guess.checked %>
+</p>
+
+
+<%= link_to 'Edit', edit_guess_path(@guess) %> |
+<%= link_to 'Back', guesses_path %>

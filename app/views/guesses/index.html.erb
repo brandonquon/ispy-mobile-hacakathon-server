@@ -1,0 +1,27 @@
+<h1>Listing guesses</h1>
+
+<table>
+  <tr>
+    <th>Guessimage</th>
+    <th>Iscorrect</th>
+    <th>Checked</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @guesses.each do |guess| %>
+  <tr>
+    <td><%= guess.guessimage %></td>
+    <td><%= guess.iscorrect %></td>
+    <td><%= guess.checked %></td>
+    <td><%= link_to 'Show', guess %></td>
+    <td><%= link_to 'Edit', edit_guess_path(guess) %></td>
+    <td><%= link_to 'Destroy', guess, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Guess', new_guess_path %>

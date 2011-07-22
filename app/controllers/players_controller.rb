@@ -2,7 +2,9 @@ class PlayersController < ApplicationController
   # GET /players
   # GET /players.xml
   def index
-    @players = Player.all
+#    @players = Player.all
+    @players = Player.find(:all, :order => "score DESC")
+#    @players = Article.page(params[:page]).per(10)
 
     respond_to do |format|
       format.html # index.html.erb

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Image:</b>
+  <%= @needle.image %>
+</p>
+
+<p>
+  <b>Hint1:</b>
+  <%= @needle.hint1 %>
+</p>
+
+<p>
+  <b>Hint2:</b>
+  <%= @needle.hint2 %>
+</p>
+
+<p>
+  <b>Hint3:</b>
+  <%= @needle.hint3 %>
+</p>
+
+
+<%= link_to 'Edit', edit_needle_path(@needle) %> |
+<%= link_to 'Back', needles_path %>
