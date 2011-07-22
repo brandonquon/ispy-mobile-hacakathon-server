@@ -1,23 +1,5 @@
 Eyespy::Application.routes.draw do
   resources :players do
-    member do
-      get :players
-      post :player
-      get  :player/:id
-     end
-  end
-  resources :needle
-     member do
-       get :needle/current
-       post :needle
-     end
-  end
-  resources :guesses
-    member do
-      get :guesses
-      post :guess
-    end 
- end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
