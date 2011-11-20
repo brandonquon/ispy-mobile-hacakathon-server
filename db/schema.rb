@@ -10,19 +10,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110722070933) do
+ActiveRecord::Schema.define(:version => 20111120021854) do
 
   create_table "guesses", :force => true do |t|
     t.string  "guessimage"
     t.boolean "iscorrect"
     t.boolean "checked"
+    t.integer "player_id"
   end
 
   create_table "needles", :force => true do |t|
-    t.string "image"
-    t.string "hint1"
-    t.string "hint2"
-    t.string "hint3"
+    t.string  "image"
+    t.string  "hint1"
+    t.string  "hint2"
+    t.string  "hint3"
+    t.integer "player_id"
   end
 
   create_table "players", :force => true do |t|
