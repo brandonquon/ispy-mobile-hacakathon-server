@@ -3,3 +3,6 @@
 # Add new mime types for use in respond_to blocks:
 # Mime::Type.register "text/richtext", :rtf
 # Mime::Type.register_alias "text/html", :iphone
+
+
+ActiveRecord::Base.include_root_in_json = false
